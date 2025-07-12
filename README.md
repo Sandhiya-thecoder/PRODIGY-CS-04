@@ -22,7 +22,7 @@ A lightweight and educational keylogger built using Python and the `pynput` libr
 
    pip install pynput
 
-   🚨 Disclaimer
+  ## 🚨 Disclaimer: 
 ⚠️ This software is intended only for educational purposes.
 Unauthorized access to someone else's system or data is illegal and unethical.
 Always obtain explicit permission before running any monitoring tool on any system.
