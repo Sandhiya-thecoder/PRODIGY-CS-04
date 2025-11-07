@@ -1,85 +1,52 @@
-# PRODIGY-CS-04
-# 🛡️ Simple Keylogger (Python)
+<h1 align="center">🛡️ PRODIGY-CS-04: Simple Keylogger</h1>
 
-A lightweight and educational keylogger built using Python and the `pynput` library. It listens for keyboard input and logs each keystroke to a local text file. Useful for learning how keylogging mechanisms work — **strictly for ethical and authorized usage only**.
+<p align="center">
+A lightweight and educational <b>Python & JavaScript project</b> demonstrating how keystroke capturing works — built <b>strictly for ethical and authorized learning purposes only.</b>  
+It includes both a real Python implementation (for local testing) and a <b>safe, frontend browser simulation</b> for UI/UX demonstration. ⚙️
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange?logo=javascript" alt="Frontend">
+  <img src="https://img.shields.io/badge/Category-CyberSecurity-yellow" alt="Cybersecurity">
+  <img src="https://img.shields.io/badge/Level-Beginner-brightgreen" alt="Beginner">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Completed">
+</p>
+
+---
+
+## 🧠 Overview
+
+The **Simple Keylogger** project is divided into two modules:
+
+1. **Python Keylogger:**  
+   A local script using the `pynput` library to record keystrokes and save them into a file.  
+   👉 *Educational use only!*
+
+2. **Frontend Simulation (HTML, CSS, JS):**  
+   A browser-based interface that visually displays keystrokes in real time without logging or saving any data — **100% safe for demonstration**.
 
 ---
 
 ## 📌 Features
 
+### 🐍 Python Version
 - ⌨️ Records all keystrokes
-- 🗂 Logs saved to `key_log.txt`
+- 🗂 Saves logs to `key_log.txt`
 - 🛑 Stops recording when `Esc` is pressed
-- 💡 Minimal and beginner-friendly code
+- 💡 Simple, readable code for beginners
 
----
-
-## 🛠️ Installation
-
-1. **Clone the repository or download the script.**
-
-2. **Install the required library:**
-
-   pip install pynput
-
-  ## 🚨 Disclaimer: 
-⚠️ This software is intended only for educational purposes.
-Unauthorized access to someone else's system or data is illegal and unethical.
-Always obtain explicit permission before running any monitoring tool on any system.
-
-# 🎮 Simple Keylogger (Frontend Simulation)
-
-A browser-based simulation of a simple keylogger using **HTML, CSS, and JavaScript**. This tool captures and displays every key pressed on the keyboard in real-time inside the browser — built for **educational and UI/UX demonstration purposes only**.
-
-⚠️ **This is a non-malicious simulation** — no keystrokes are stored, logged to a file, or sent anywhere.
-
----
-
-## 🌟 Features
-
+### 💻 Frontend Simulation
 - ⌨️ Captures and displays keys in real time
-- 💻 Built entirely using HTML, CSS, and JavaScript
-- 🧠 Great for beginners to learn about keyboard events
-- 🔒 100%
-  
-## 🚀 How It Works
-
-- Listens for `keydown` events using JavaScript.
-- Displays each key pressed on the screen.
-- Highlights special keys (e.g., Enter, Space, Backspace).
+- 🎨 Built using HTML, CSS, and JavaScript
+- 🔒 Non-malicious — no data storage or transmission
+- 🌈 Highlights special keys (e.g., Space, Enter, Backspace)
 
 ---
 
-## 🧩 Technologies Used
+## 🛠️ Installation (Python)
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-
----
-
-## 💻 Live Preview
-
-> You can run the project by simply opening `index.html` in your browser.
-
----
-
-## 🛠️ Installation & Usage
-
-Open index.html in a browser:
-
-
-📚 Learning Objectives
-Understand how keydown events work in JavaScript.
-
-Explore real-time DOM updates.
-
-Practice handling special key input.
-
-⚠️ Disclaimer
-This is NOT a real keylogger.
-It is a safe, ethical simulation for web development learning only.
-Do not misuse real keyloggers — they are illegal without consent.
-
-
-
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/PRODIGY-CS-04.git
+   cd PRODIGY-CS-04
